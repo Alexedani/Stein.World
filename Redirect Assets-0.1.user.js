@@ -2,10 +2,9 @@
 // @name         Redirect Assets
 // @namespace    http://your.namespace.com
 // @version      0.1
-// @description  Redirect asset requests to local folder
+// @description  Redirect asset requests
 // @author       Turbo
 // @match        https://us.stein.world/*
-// @grant        none
 // ==/UserScript==
 
 (function() {
