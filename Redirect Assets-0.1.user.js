@@ -15,7 +15,6 @@
     window.fetch = function(url, options) {
         if (url.includes('/assets/images/')) {
             console.log(url)
-            // Modify the URL to point to your local folder
             url = url.replace(
                 'https://*.stein.world/assets/images',
                 'https://github.com/Alexedani/stein.world/tree/main/images'
